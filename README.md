@@ -4,7 +4,7 @@ A ROS 2–based WiFi-controlled RC car using UDP communication between a joystic
 and an ESP8266 motor controller for low-latency real-time control.
 
 ## Features
-- ROS 2 joystick control
+- ROS 2 control using joystick
 - UDP-based communication
 - ESP8266 motor controller
 - L293D motor driver
