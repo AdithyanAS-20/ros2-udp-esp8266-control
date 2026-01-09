@@ -1,2 +1,25 @@
-# ros2-udp-esp8266-control
-A ROS2 based WiFi-controlled RC car using UDP for real-time motor control. A ROS2 Python node converts joystick inputs from the /joy topic into PWM commands and sends them via UDP to an ESP8266, which drives DC motors through an L293D motor driver with low latency.
+# ROS2 WiFi RC Car (UDP Control)
+
+A ROS 2–based WiFi-controlled RC car using UDP communication between a joystick node
+and an ESP8266 motor controller for low-latency real-time control.
+
+## Features
+- ROS 2 joystick control
+- UDP-based communication
+- ESP8266 motor controller
+- L293D motor driver
+- Real-time teleoperation
+
+## Hardware
+- ESP8266 NodeMCU
+- L293D motor driver
+- DC motors
+- External battery
+
+## Software
+- Ubuntu 22.04
+- ROS 2 Humble
+- Python (rclpy)
+- Arduino IDE
+  
+Check the document attached at the docs folder for further step by step execution.
