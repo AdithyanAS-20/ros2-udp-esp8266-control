@@ -6,7 +6,7 @@ and an ESP8266 motor controller for low-latency real-time control.
 ## Features
 - ROS 2 control using joystick
 - UDP-based communication
-- ESP8266 motor controller
+- ESP8266  controller
 - L293D motor driver
 - Real-time teleoperation
 
